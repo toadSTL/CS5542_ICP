@@ -24,6 +24,6 @@
 Final validation accuracy = 77.5% (N=240)
 ```
 
-![Accuracy](/doc/RetrainAccuracy.png)
+![Accuracy](https://github.com/toadSTL/CS5542_ICP/blob/master/ICP5/doc/RetrainAccuracy.png)
 
 

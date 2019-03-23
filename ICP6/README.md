@@ -10,7 +10,7 @@ Initially we trained an LSTM using the provided sample data belling_the_cat.txt
 
 After training the LSTM on this sample data, we are shown the Loss and Accuracy and are allowed to test it by providing a predefined number of words and allowing the LSTM to generate words.  Below is a screenshot of this output:
 
-![Initial LSTM training](doc/screenshot1.png)
+![Initial LSTM training](https://github.com/toadSTL/CS5542_ICP/blob/master/ICP6/doc/screenshot1.png)
 
 After training the LSTM model using the questions as the input (which required re-formatting the questions so that all are on a single line and sepapated by periods) the LSTM accuracy ended up being 0.27%.
 ```sh
