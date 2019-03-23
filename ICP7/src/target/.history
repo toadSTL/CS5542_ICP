@@ -1,0 +1,6 @@
+;reload; set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download resolveClassifiers resolveSbtClassifiers" ;*/*:dumpStructureTo C:/Users/Gregory/AppData/Local/Temp/sbt-structure.xml; session clear-all
+all {file:/D:/Users/Gregory/Documents/GitHub/CS5542_ICP/ICP7/ICP7/}icp7/products {file:/D:/Users/Gregory/Documents/GitHub/CS5542_ICP/ICP7/ICP7/}icp7/test:products
+;reload; set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download resolveClassifiers resolveSbtClassifiers" ;*/*:dumpStructureTo C:/Users/Gregory/AppData/Local/Temp/sbt-structure.xml; session clear-all
+all {file:/D:/Users/Gregory/Documents/GitHub/CS5542_ICP/ICP7/ICP7/}icp7/products {file:/D:/Users/Gregory/Documents/GitHub/CS5542_ICP/ICP7/ICP7/}icp7/test:products
+;set _root_.scala.collection.Seq(shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("C:/Users/Gregory/AppData/Local/Temp/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers, resolveSbtClassifiers");apply -cp "C:/Users/Gregory/.IntelliJIdea2018.2/config/plugins/Scala/launcher/sbt-structure-1.0.jar" org.jetbrains.sbt.CreateTasks;*/*:dumpStructure
+exit
