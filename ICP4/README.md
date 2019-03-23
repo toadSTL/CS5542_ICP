@@ -9,7 +9,7 @@
 ### Implementation
 
 As shown in the below image, the intial training using the Adam Optimizer gives training accuracy of 96% and test accuracy of 94.5% after 400 steps.
-![Code and output](/doc/icp4-1.png)
+![Code and output](../doc/icp4-1.png)
 The highlighted 'AdamOptimizer' function is what we must change to change the algorithm.  A list of available optimizers can be gathered from the tensorflow documentation: https://www.tensorflow.org/api_docs/python/tf/train/
 
 In order to change the optimizer we simply change that function, i.e.:
@@ -73,7 +73,7 @@ h_pool2_flat = tf.reshape(h_pool3, [-1, 4 * 4 * 128])
 
 Using this configuration for the CNN, I retrained models using the Adam, Adagrad, Proximal Gradient Decent, and RMSProp optimizers.  The cross-entropy graphs for these modles are shown below: 
 
-![Selected Optimizers Cross-Entropy Reconfigured CNN](ICP4/doc/icp4-3.png)
+![Selected Optimizers Cross-Entropy Reconfigured CNN](../doc/icp4-3.png)
 
 Notably, again RMSProp and Adam perform the best.
 
