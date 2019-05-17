@@ -1,0 +1,7 @@
+The goal of the acrobot game is to get the character to pivot around around until it swings above the line.
+Ideally the amount of time it takes to perform this task will decrease as the reinforcement teaches the acrobot how to 'wiggle' (L-R inputs) in order perform this task.
+
+In lew of a screenshot showing the final model (which I accidentally cleared 'run' log) from the below is the final two lines (which I thankfully copied):
+
+episode: 99/100, time: 345, e: 0.0099, reward: 0.0
+episode: 99/100, time: 316, e: 0.0099, reward: 0.0
